@@ -1,0 +1,55 @@
+h1{
+    color:brown;
+    margin-left: 30px;
+  }
+  .header *{
+    border:solid;
+  }
+  .header{
+      background-color: rgb(255, 196, 0);
+      display:flex;
+      justify-content: space-between;
+  }
+  .grid{
+      display:flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+  }
+  .footer{
+      display:flex;
+      justify-content: flex-ends;
+  }
+  p,h2{
+      text-align: center;
+  }
+  body{
+      background-color:#ff0;
+  }
+a:link{
+    color:green;
+}
+a:visited{
+    color:red;
+}
+.menu{
+    margin-right:145px;
+}
+.menu a{
+    margin-right:200px;
+}
+.item{
+    position:relative;
+}
+.item p{
+    position:absolute;
+    top:20% ;
+    left:20%;
+    transform:translate(-20%,-20%);
+   opacity:0;
+}
+.item:hover p{
+    opacity:1;
+}
+.item:hover img{
+    opacity:0.33;
+}
